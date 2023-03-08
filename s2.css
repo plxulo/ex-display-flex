@@ -1,23 +1,37 @@
 body {
     width: 100%;
-    height: 100vh;
+    height: 50vh;
+    background: rgb(62, 62, 255);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     justify-items: center;
     align-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .d1 {
     height: 100px;
-    aspect-ratio: 1;
-    background: yellow;
+    width: 500px;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
 }
 
-.d1, .q1, .q2, .q3 {
+.q1 {
+    height: 100px;
+    aspect-ratio: 1;
+    background: yellow;
+}
+
+.q2 {
+    height: 100px;
+    aspect-ratio: 1;
+    background: yellow;
+}
+
+.q3 {
     height: 100px;
     aspect-ratio: 1;
     background: yellow;
@@ -25,14 +39,29 @@ body {
 
 .d2 {
     height: 100px;
-    aspect-ratio: 1;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background: yellow;
 }
 
 .d3 {
-    background: yellow;
     height: 100px;
-    aspect-ratio: 1;
+    width: 500px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.r1 {
+    height: 100px;
+    width: 300px;
+    background: yellow;
+}
+
+.q4 {
+    height: 100px;
+    aspect-ratio: 1;
+    background: yellow;
 }
