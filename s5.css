@@ -1,0 +1,51 @@
+.d1 {
+    width: 50%;
+    height: 50vh;
+    background: rgb(62, 62, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.d2 {
+    width: 50%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.d2_1 {
+    height: 12.7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.d2_1_1 {
+    height: 100px;
+    aspect-ratio: 1;
+    background: yellow;
+}
+
+.d2_1_2 {
+    height: 100px;
+    aspect-ratio: 1;
+    background: yellow;
+}
+
+.d3 {
+    height: 20vh;
+    width: 100%;
+    background: yellow;
+}
+
+.d4 {
+    height: 35vh;
+    width: 20%;
+    background: yellow;
+}
